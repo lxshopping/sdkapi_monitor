@@ -1,0 +1,1648 @@
+2017-07-12 Wednesday 19:24:51  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/account/login
+2017-07-12 Wednesday 19:24:51  Http.py : INFO  request: {
+    "username": "lx123lx", 
+    "password": "lx123lx"
+}
+
+2017-07-12 Wednesday 19:24:54  Http.py : INFO  response: {
+    "username": "lx123lx", 
+    "openid": "11996370", 
+    "uid": 11996370, 
+    "rtype": 0, 
+    "mobile": "", 
+    "is_adult": true, 
+    "real_name": "草泥马", 
+    "sub_nickname": "小号1", 
+    "vip": 0, 
+    "actiontype": 2, 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "is_real": true, 
+    "regtype": 6, 
+    "rid": 1, 
+    "balance": "0.00", 
+    "nickname": "skyli", 
+    "token": "3pmeupvd1veow0k40sk0gs04s", 
+    "card_no": "431003197009247037"
+}
+2017-07-12 Wednesday 19:24:54  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/order/new
+2017-07-12 Wednesday 19:24:54  Http.py : INFO  request: {
+    "body": "10 Gold", 
+    "fee": 10, 
+    "vorderid": "0869064212445", 
+    "_token": "3pmeupvd1veow0k40sk0gs04s", 
+    "role_id": 10001, 
+    "notify_url": "http://www.baidu.com/", 
+    "zone_id": 1, 
+    "zone_name": "龙争虎斗", 
+    "role_name": "疯狂科学家", 
+    "role_level": 1, 
+    "subject": "10 Gold"
+}
+
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  response: {
+    "fee": "10", 
+    "product_id": "", 
+    "package": "com.anfan.iapceshi", 
+    "order_id": "170712192557066512905498", 
+    "order_desc": "10 Gold", 
+    "_token": "3pmeupvd1veow0k40sk0gs04s", 
+    "iap": false, 
+    "order_name": "10 Gold", 
+    "vip": 0, 
+    "pay_methods": [
+        {
+            "pay_type": 0, 
+            "api": "api/pay/wechat/request", 
+            "type": "wechat"
+        }, 
+        {
+            "pay_type": 0, 
+            "api": "api/pay/alipay/request", 
+            "type": "alipay"
+        }
+    ], 
+    "balance": "0.00", 
+    "id": 13562737, 
+    "coupons": []
+}
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/nowpay_wechat/request
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  request: {
+    "_token": "3pmeupvd1veow0k40sk0gs04s", 
+    "order_id": "170712192557066512905498", 
+    "balance": 0
+}
+
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  response: {
+    "pay_type": 0, 
+    "real_fee": 1000, 
+    "order_id": "170712192557066512905498", 
+    "data": "appId=1440581085864755&mhtCharset=UTF-8&mhtCurrencyType=156&mhtOrderAmt=1000&mhtOrderDetail=10+Gold&mhtOrderName=10+Gold&mhtOrderNo=170712192557066512905498&mhtOrderStartTime=20170712192557&mhtOrderType=01&notifyUrl=http%3A%2F%2Fsdkv4.qcwan.com%2Fpay_callback%2Fnowpay_wechat&payChannelType=13&mhtSignature=a23c331cdb871bbc90f40e3ca9570c5a&mhtSignType=MD5", 
+    "_token": "3pmeupvd1veow0k40sk0gs04s", 
+    "pay_method": "nowpay_wechat"
+}
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/user/info
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  request: {
+    "_token": "3pmeupvd1veow0k40sk0gs04s"
+}
+
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  response: {
+    "province": "天津市", 
+    "uid": 11996370, 
+    "is_adult": true, 
+    "vip": 0, 
+    "rid": 1, 
+    "city": "天津市", 
+    "reg_time": 1494817811, 
+    "score": 0, 
+    "regtype": 6, 
+    "email": "lx123lx@anfan.com", 
+    "card_no": "431003197009247037", 
+    "username": "lx123lx", 
+    "_token": "3pmeupvd1veow0k40sk0gs04s", 
+    "birthday": "19700924", 
+    "address": "草泥马", 
+    "is_real": true, 
+    "nickname": "skyli", 
+    "bindlist": {
+        "qq": {
+            "is_bind": false
+        }, 
+        "baidu": {
+            "is_bind": false
+        }, 
+        "lenovo": {
+            "is_bind": false
+        }, 
+        "leshi": {
+            "is_bind": false
+        }, 
+        "weibo": {
+            "is_bind": false
+        }, 
+        "weixin": {
+            "is_bind": false
+        }, 
+        "hauwei": {
+            "is_bind": false
+        }, 
+        "yyb_weixin": {
+            "is_bind": false
+        }, 
+        "yyb_guest": {
+            "is_bind": false
+        }, 
+        "xiaomi": {
+            "is_bind": false
+        }, 
+        "vivo": {
+            "is_bind": false
+        }, 
+        "amigo": {
+            "is_bind": false
+        }, 
+        "mobile": {
+            "is_bind": false
+        }, 
+        "facebook": {
+            "is_bind": false
+        }, 
+        "oppo": {
+            "is_bind": false
+        }, 
+        "password": {
+            "is_bind": true
+        }, 
+        "uc": {
+            "is_bind": false
+        }, 
+        "yyb_qq": {
+            "is_bind": false
+        }
+    }, 
+    "rtype": 0, 
+    "mobile": "", 
+    "gender": 1, 
+    "real_name": "草泥马", 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "exp": 0, 
+    "balance": "0.00"
+}
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/account/login
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  request: {
+    "username": "lx123lx", 
+    "password": "lx123lx"
+}
+
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  response: {
+    "username": "lx123lx", 
+    "openid": "11996370", 
+    "uid": 11996370, 
+    "rtype": 0, 
+    "mobile": "", 
+    "is_adult": true, 
+    "real_name": "草泥马", 
+    "sub_nickname": "小号1", 
+    "vip": 0, 
+    "actiontype": 2, 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "is_real": true, 
+    "regtype": 6, 
+    "rid": 1, 
+    "balance": "0.00", 
+    "nickname": "skyli", 
+    "token": "4ln8e9mq6jackg08wo8g400s8", 
+    "card_no": "431003197009247037"
+}
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/order/new
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  request: {
+    "body": "10 Gold", 
+    "fee": 10, 
+    "vorderid": "776907991867", 
+    "_token": "4ln8e9mq6jackg08wo8g400s8", 
+    "role_id": 10001, 
+    "notify_url": "http://www.baidu.com/", 
+    "zone_id": 1, 
+    "zone_name": "龙争虎斗", 
+    "role_name": "疯狂科学家", 
+    "role_level": 1, 
+    "subject": "10 Gold"
+}
+
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  response: {
+    "fee": "10", 
+    "product_id": "", 
+    "package": "com.anfan.iapceshi", 
+    "order_id": "170712192557336066679387", 
+    "order_desc": "10 Gold", 
+    "_token": "4ln8e9mq6jackg08wo8g400s8", 
+    "iap": false, 
+    "order_name": "10 Gold", 
+    "vip": 0, 
+    "pay_methods": [
+        {
+            "pay_type": 0, 
+            "api": "api/pay/wechat/request", 
+            "type": "wechat"
+        }, 
+        {
+            "pay_type": 0, 
+            "api": "api/pay/alipay/request", 
+            "type": "alipay"
+        }
+    ], 
+    "balance": "0.00", 
+    "id": 13562738, 
+    "coupons": []
+}
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/nowpay_wechat/request
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  request: {
+    "_token": "4ln8e9mq6jackg08wo8g400s8", 
+    "order_id": "170712192557336066679387", 
+    "balance": 0
+}
+
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  response: {
+    "pay_type": 0, 
+    "real_fee": 1000, 
+    "order_id": "170712192557336066679387", 
+    "data": "appId=1440581085864755&mhtCharset=UTF-8&mhtCurrencyType=156&mhtOrderAmt=1000&mhtOrderDetail=10+Gold&mhtOrderName=10+Gold&mhtOrderNo=170712192557336066679387&mhtOrderStartTime=20170712192557&mhtOrderType=01&notifyUrl=http%3A%2F%2Fsdkv4.qcwan.com%2Fpay_callback%2Fnowpay_wechat&payChannelType=13&mhtSignature=4df741ac2ec7caaa7dc33b724ee485e7&mhtSignType=MD5", 
+    "_token": "4ln8e9mq6jackg08wo8g400s8", 
+    "pay_method": "nowpay_wechat"
+}
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/user/info
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  request: {
+    "_token": "4ln8e9mq6jackg08wo8g400s8"
+}
+
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  response: {
+    "province": "天津市", 
+    "uid": 11996370, 
+    "is_adult": true, 
+    "vip": 0, 
+    "rid": 1, 
+    "city": "天津市", 
+    "reg_time": 1494817811, 
+    "score": 0, 
+    "regtype": 6, 
+    "email": "lx123lx@anfan.com", 
+    "card_no": "431003197009247037", 
+    "username": "lx123lx", 
+    "_token": "4ln8e9mq6jackg08wo8g400s8", 
+    "birthday": "19700924", 
+    "address": "草泥马", 
+    "is_real": true, 
+    "nickname": "skyli", 
+    "bindlist": {
+        "qq": {
+            "is_bind": false
+        }, 
+        "baidu": {
+            "is_bind": false
+        }, 
+        "lenovo": {
+            "is_bind": false
+        }, 
+        "leshi": {
+            "is_bind": false
+        }, 
+        "weibo": {
+            "is_bind": false
+        }, 
+        "weixin": {
+            "is_bind": false
+        }, 
+        "hauwei": {
+            "is_bind": false
+        }, 
+        "yyb_weixin": {
+            "is_bind": false
+        }, 
+        "yyb_guest": {
+            "is_bind": false
+        }, 
+        "xiaomi": {
+            "is_bind": false
+        }, 
+        "vivo": {
+            "is_bind": false
+        }, 
+        "amigo": {
+            "is_bind": false
+        }, 
+        "mobile": {
+            "is_bind": false
+        }, 
+        "facebook": {
+            "is_bind": false
+        }, 
+        "oppo": {
+            "is_bind": false
+        }, 
+        "password": {
+            "is_bind": true
+        }, 
+        "uc": {
+            "is_bind": false
+        }, 
+        "yyb_qq": {
+            "is_bind": false
+        }
+    }, 
+    "rtype": 0, 
+    "mobile": "", 
+    "gender": 1, 
+    "real_name": "草泥马", 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "exp": 0, 
+    "balance": "0.00"
+}
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/account/login
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  request: {
+    "username": "lx123lx", 
+    "password": "lx123lx"
+}
+
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  response: {
+    "username": "lx123lx", 
+    "openid": "11996370", 
+    "uid": 11996370, 
+    "rtype": 0, 
+    "mobile": "", 
+    "is_adult": true, 
+    "real_name": "草泥马", 
+    "sub_nickname": "小号1", 
+    "vip": 0, 
+    "actiontype": 2, 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "is_real": true, 
+    "regtype": 6, 
+    "rid": 1, 
+    "balance": "0.00", 
+    "nickname": "skyli", 
+    "token": "d4w7ll4z1jk8swwk8g0oc0g0g", 
+    "card_no": "431003197009247037"
+}
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/order/new
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  request: {
+    "body": "10 Gold", 
+    "fee": 10, 
+    "vorderid": "229669677213", 
+    "_token": "d4w7ll4z1jk8swwk8g0oc0g0g", 
+    "role_id": 10001, 
+    "notify_url": "http://www.baidu.com/", 
+    "zone_id": 1, 
+    "zone_name": "龙争虎斗", 
+    "role_name": "疯狂科学家", 
+    "role_level": 1, 
+    "subject": "10 Gold"
+}
+
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  response: {
+    "fee": "10", 
+    "product_id": "", 
+    "package": "com.anfan.iapceshi", 
+    "order_id": "170712192557614057095414", 
+    "order_desc": "10 Gold", 
+    "_token": "d4w7ll4z1jk8swwk8g0oc0g0g", 
+    "iap": false, 
+    "order_name": "10 Gold", 
+    "vip": 0, 
+    "pay_methods": [
+        {
+            "pay_type": 0, 
+            "api": "api/pay/wechat/request", 
+            "type": "wechat"
+        }, 
+        {
+            "pay_type": 0, 
+            "api": "api/pay/alipay/request", 
+            "type": "alipay"
+        }
+    ], 
+    "balance": "0.00", 
+    "id": 13562740, 
+    "coupons": []
+}
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/nowpay_wechat/request
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  request: {
+    "_token": "d4w7ll4z1jk8swwk8g0oc0g0g", 
+    "order_id": "170712192557614057095414", 
+    "balance": 0
+}
+
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  response: {
+    "pay_type": 0, 
+    "real_fee": 1000, 
+    "order_id": "170712192557614057095414", 
+    "data": "appId=1440581085864755&mhtCharset=UTF-8&mhtCurrencyType=156&mhtOrderAmt=1000&mhtOrderDetail=10+Gold&mhtOrderName=10+Gold&mhtOrderNo=170712192557614057095414&mhtOrderStartTime=20170712192557&mhtOrderType=01&notifyUrl=http%3A%2F%2Fsdkv4.qcwan.com%2Fpay_callback%2Fnowpay_wechat&payChannelType=13&mhtSignature=1ea2a31a03e49b11d3c6bdea2b9f51fc&mhtSignType=MD5", 
+    "_token": "d4w7ll4z1jk8swwk8g0oc0g0g", 
+    "pay_method": "nowpay_wechat"
+}
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/user/info
+2017-07-12 Wednesday 19:24:55  Http.py : INFO  request: {
+    "_token": "d4w7ll4z1jk8swwk8g0oc0g0g"
+}
+
+2017-07-12 Wednesday 19:24:56  Http.py : INFO  response: {
+    "province": "天津市", 
+    "uid": 11996370, 
+    "is_adult": true, 
+    "vip": 0, 
+    "rid": 1, 
+    "city": "天津市", 
+    "reg_time": 1494817811, 
+    "score": 0, 
+    "regtype": 6, 
+    "email": "lx123lx@anfan.com", 
+    "card_no": "431003197009247037", 
+    "username": "lx123lx", 
+    "_token": "d4w7ll4z1jk8swwk8g0oc0g0g", 
+    "birthday": "19700924", 
+    "address": "草泥马", 
+    "is_real": true, 
+    "nickname": "skyli", 
+    "bindlist": {
+        "qq": {
+            "is_bind": false
+        }, 
+        "baidu": {
+            "is_bind": false
+        }, 
+        "lenovo": {
+            "is_bind": false
+        }, 
+        "leshi": {
+            "is_bind": false
+        }, 
+        "weibo": {
+            "is_bind": false
+        }, 
+        "weixin": {
+            "is_bind": false
+        }, 
+        "hauwei": {
+            "is_bind": false
+        }, 
+        "yyb_weixin": {
+            "is_bind": false
+        }, 
+        "yyb_guest": {
+            "is_bind": false
+        }, 
+        "xiaomi": {
+            "is_bind": false
+        }, 
+        "vivo": {
+            "is_bind": false
+        }, 
+        "amigo": {
+            "is_bind": false
+        }, 
+        "mobile": {
+            "is_bind": false
+        }, 
+        "facebook": {
+            "is_bind": false
+        }, 
+        "oppo": {
+            "is_bind": false
+        }, 
+        "password": {
+            "is_bind": true
+        }, 
+        "uc": {
+            "is_bind": false
+        }, 
+        "yyb_qq": {
+            "is_bind": false
+        }
+    }, 
+    "rtype": 0, 
+    "mobile": "", 
+    "gender": 1, 
+    "real_name": "草泥马", 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "exp": 0, 
+    "balance": "0.00"
+}
+2017-07-12 Wednesday 19:24:56  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/account/login
+2017-07-12 Wednesday 19:24:56  Http.py : INFO  request: {
+    "username": "lx123lx", 
+    "password": "lx123lx"
+}
+
+2017-07-12 Wednesday 19:24:56  Http.py : INFO  response: {
+    "username": "lx123lx", 
+    "openid": "11996370", 
+    "uid": 11996370, 
+    "rtype": 0, 
+    "mobile": "", 
+    "is_adult": true, 
+    "real_name": "草泥马", 
+    "sub_nickname": "小号1", 
+    "vip": 0, 
+    "actiontype": 2, 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "is_real": true, 
+    "regtype": 6, 
+    "rid": 1, 
+    "balance": "0.00", 
+    "nickname": "skyli", 
+    "token": "5h38yeyca5ss0kkgkkwsk8kgo", 
+    "card_no": "431003197009247037"
+}
+2017-07-12 Wednesday 19:24:56  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/order/new
+2017-07-12 Wednesday 19:24:56  Http.py : INFO  request: {
+    "body": "10 Gold", 
+    "fee": 10, 
+    "vorderid": "49306588272", 
+    "_token": "5h38yeyca5ss0kkgkkwsk8kgo", 
+    "role_id": 10001, 
+    "notify_url": "http://www.baidu.com/", 
+    "zone_id": 1, 
+    "zone_name": "龙争虎斗", 
+    "role_name": "疯狂科学家", 
+    "role_level": 1, 
+    "subject": "10 Gold"
+}
+
+2017-07-12 Wednesday 19:24:56  Http.py : INFO  response: {
+    "fee": "10", 
+    "product_id": "", 
+    "package": "com.anfan.iapceshi", 
+    "order_id": "170712192558807644111381", 
+    "order_desc": "10 Gold", 
+    "_token": "5h38yeyca5ss0kkgkkwsk8kgo", 
+    "iap": false, 
+    "order_name": "10 Gold", 
+    "vip": 0, 
+    "pay_methods": [
+        {
+            "pay_type": 0, 
+            "api": "api/pay/wechat/request", 
+            "type": "wechat"
+        }, 
+        {
+            "pay_type": 0, 
+            "api": "api/pay/alipay/request", 
+            "type": "alipay"
+        }
+    ], 
+    "balance": "0.00", 
+    "id": 13562742, 
+    "coupons": []
+}
+2017-07-12 Wednesday 19:24:56  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/nowpay_wechat/request
+2017-07-12 Wednesday 19:24:56  Http.py : INFO  request: {
+    "_token": "5h38yeyca5ss0kkgkkwsk8kgo", 
+    "order_id": "170712192558807644111381", 
+    "balance": 0
+}
+
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  response: {
+    "pay_type": 0, 
+    "real_fee": 1000, 
+    "order_id": "170712192558807644111381", 
+    "data": "appId=1440581085864755&mhtCharset=UTF-8&mhtCurrencyType=156&mhtOrderAmt=1000&mhtOrderDetail=10+Gold&mhtOrderName=10+Gold&mhtOrderNo=170712192558807644111381&mhtOrderStartTime=20170712192604&mhtOrderType=01&notifyUrl=http%3A%2F%2Fsdkv4.qcwan.com%2Fpay_callback%2Fnowpay_wechat&payChannelType=13&mhtSignature=30d2c4941ed2eeff9042dce2ede51834&mhtSignType=MD5", 
+    "_token": "5h38yeyca5ss0kkgkkwsk8kgo", 
+    "pay_method": "nowpay_wechat"
+}
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/user/info
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  request: {
+    "_token": "5h38yeyca5ss0kkgkkwsk8kgo"
+}
+
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  response: {
+    "province": "天津市", 
+    "uid": 11996370, 
+    "is_adult": true, 
+    "vip": 0, 
+    "rid": 1, 
+    "city": "天津市", 
+    "reg_time": 1494817811, 
+    "score": 0, 
+    "regtype": 6, 
+    "email": "lx123lx@anfan.com", 
+    "card_no": "431003197009247037", 
+    "username": "lx123lx", 
+    "_token": "5h38yeyca5ss0kkgkkwsk8kgo", 
+    "birthday": "19700924", 
+    "address": "草泥马", 
+    "is_real": true, 
+    "nickname": "skyli", 
+    "bindlist": {
+        "qq": {
+            "is_bind": false
+        }, 
+        "baidu": {
+            "is_bind": false
+        }, 
+        "lenovo": {
+            "is_bind": false
+        }, 
+        "leshi": {
+            "is_bind": false
+        }, 
+        "weibo": {
+            "is_bind": false
+        }, 
+        "weixin": {
+            "is_bind": false
+        }, 
+        "hauwei": {
+            "is_bind": false
+        }, 
+        "yyb_weixin": {
+            "is_bind": false
+        }, 
+        "yyb_guest": {
+            "is_bind": false
+        }, 
+        "xiaomi": {
+            "is_bind": false
+        }, 
+        "vivo": {
+            "is_bind": false
+        }, 
+        "amigo": {
+            "is_bind": false
+        }, 
+        "mobile": {
+            "is_bind": false
+        }, 
+        "facebook": {
+            "is_bind": false
+        }, 
+        "oppo": {
+            "is_bind": false
+        }, 
+        "password": {
+            "is_bind": true
+        }, 
+        "uc": {
+            "is_bind": false
+        }, 
+        "yyb_qq": {
+            "is_bind": false
+        }
+    }, 
+    "rtype": 0, 
+    "mobile": "", 
+    "gender": 1, 
+    "real_name": "草泥马", 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "exp": 0, 
+    "balance": "0.00"
+}
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/account/login
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  request: {
+    "username": "lx123lx", 
+    "password": "lx123lx"
+}
+
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  response: {
+    "username": "lx123lx", 
+    "openid": "11996370", 
+    "uid": 11996370, 
+    "rtype": 0, 
+    "mobile": "", 
+    "is_adult": true, 
+    "real_name": "草泥马", 
+    "sub_nickname": "小号1", 
+    "vip": 0, 
+    "actiontype": 2, 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "is_real": true, 
+    "regtype": 6, 
+    "rid": 1, 
+    "balance": "0.00", 
+    "nickname": "skyli", 
+    "token": "9zuc9py8f34kwk4o4ggkkwcw8", 
+    "card_no": "431003197009247037"
+}
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/order/new
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  request: {
+    "body": "10 Gold", 
+    "fee": 10, 
+    "vorderid": "0861138655758", 
+    "_token": "9zuc9py8f34kwk4o4ggkkwcw8", 
+    "role_id": 10001, 
+    "notify_url": "http://www.baidu.com/", 
+    "zone_id": 1, 
+    "zone_name": "龙争虎斗", 
+    "role_name": "疯狂科学家", 
+    "role_level": 1, 
+    "subject": "10 Gold"
+}
+
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  response: {
+    "fee": "10", 
+    "product_id": "", 
+    "package": "com.anfan.iapceshi", 
+    "order_id": "170712192605123405864390", 
+    "order_desc": "10 Gold", 
+    "_token": "9zuc9py8f34kwk4o4ggkkwcw8", 
+    "iap": false, 
+    "order_name": "10 Gold", 
+    "vip": 0, 
+    "pay_methods": [
+        {
+            "pay_type": 0, 
+            "api": "api/pay/wechat/request", 
+            "type": "wechat"
+        }, 
+        {
+            "pay_type": 0, 
+            "api": "api/pay/alipay/request", 
+            "type": "alipay"
+        }
+    ], 
+    "balance": "0.00", 
+    "id": 13562743, 
+    "coupons": []
+}
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/nowpay_wechat/request
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  request: {
+    "_token": "9zuc9py8f34kwk4o4ggkkwcw8", 
+    "order_id": "170712192605123405864390", 
+    "balance": 0
+}
+
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  response: {
+    "pay_type": 0, 
+    "real_fee": 1000, 
+    "order_id": "170712192605123405864390", 
+    "data": "appId=1440581085864755&mhtCharset=UTF-8&mhtCurrencyType=156&mhtOrderAmt=1000&mhtOrderDetail=10+Gold&mhtOrderName=10+Gold&mhtOrderNo=170712192605123405864390&mhtOrderStartTime=20170712192605&mhtOrderType=01&notifyUrl=http%3A%2F%2Fsdkv4.qcwan.com%2Fpay_callback%2Fnowpay_wechat&payChannelType=13&mhtSignature=b6e6c5c873b84c5602cd4de6ec573d1c&mhtSignType=MD5", 
+    "_token": "9zuc9py8f34kwk4o4ggkkwcw8", 
+    "pay_method": "nowpay_wechat"
+}
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/user/info
+2017-07-12 Wednesday 19:25:03  Http.py : INFO  request: {
+    "_token": "9zuc9py8f34kwk4o4ggkkwcw8"
+}
+
+2017-07-12 Wednesday 19:25:06  Http.py : INFO  response: {
+    "province": "天津市", 
+    "uid": 11996370, 
+    "is_adult": true, 
+    "vip": 0, 
+    "rid": 1, 
+    "city": "天津市", 
+    "reg_time": 1494817811, 
+    "score": 0, 
+    "regtype": 6, 
+    "email": "lx123lx@anfan.com", 
+    "card_no": "431003197009247037", 
+    "username": "lx123lx", 
+    "_token": "9zuc9py8f34kwk4o4ggkkwcw8", 
+    "birthday": "19700924", 
+    "address": "草泥马", 
+    "is_real": true, 
+    "nickname": "skyli", 
+    "bindlist": {
+        "qq": {
+            "is_bind": false
+        }, 
+        "baidu": {
+            "is_bind": false
+        }, 
+        "lenovo": {
+            "is_bind": false
+        }, 
+        "leshi": {
+            "is_bind": false
+        }, 
+        "weibo": {
+            "is_bind": false
+        }, 
+        "weixin": {
+            "is_bind": false
+        }, 
+        "hauwei": {
+            "is_bind": false
+        }, 
+        "yyb_weixin": {
+            "is_bind": false
+        }, 
+        "yyb_guest": {
+            "is_bind": false
+        }, 
+        "xiaomi": {
+            "is_bind": false
+        }, 
+        "vivo": {
+            "is_bind": false
+        }, 
+        "amigo": {
+            "is_bind": false
+        }, 
+        "mobile": {
+            "is_bind": false
+        }, 
+        "facebook": {
+            "is_bind": false
+        }, 
+        "oppo": {
+            "is_bind": false
+        }, 
+        "password": {
+            "is_bind": true
+        }, 
+        "uc": {
+            "is_bind": false
+        }, 
+        "yyb_qq": {
+            "is_bind": false
+        }
+    }, 
+    "rtype": 0, 
+    "mobile": "", 
+    "gender": 1, 
+    "real_name": "草泥马", 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "exp": 0, 
+    "balance": "0.00"
+}
+2017-07-12 Wednesday 19:25:06  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/account/login
+2017-07-12 Wednesday 19:25:06  Http.py : INFO  request: {
+    "username": "lx123lx", 
+    "password": "lx123lx"
+}
+
+2017-07-12 Wednesday 19:25:06  Http.py : INFO  response: {
+    "username": "lx123lx", 
+    "openid": "11996370", 
+    "uid": 11996370, 
+    "rtype": 0, 
+    "mobile": "", 
+    "is_adult": true, 
+    "real_name": "草泥马", 
+    "sub_nickname": "小号1", 
+    "vip": 0, 
+    "actiontype": 2, 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "is_real": true, 
+    "regtype": 6, 
+    "rid": 1, 
+    "balance": "0.00", 
+    "nickname": "skyli", 
+    "token": "at0es7kpiwgsww044g84o0csc", 
+    "card_no": "431003197009247037"
+}
+2017-07-12 Wednesday 19:25:06  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/order/new
+2017-07-12 Wednesday 19:25:06  Http.py : INFO  request: {
+    "body": "10 Gold", 
+    "fee": 10, 
+    "vorderid": "127425450797", 
+    "_token": "at0es7kpiwgsww044g84o0csc", 
+    "role_id": 10001, 
+    "notify_url": "http://www.baidu.com/", 
+    "zone_id": 1, 
+    "zone_name": "龙争虎斗", 
+    "role_name": "疯狂科学家", 
+    "role_level": 1, 
+    "subject": "10 Gold"
+}
+
+2017-07-12 Wednesday 19:25:06  Http.py : INFO  response: {
+    "fee": "10", 
+    "product_id": "", 
+    "package": "com.anfan.iapceshi", 
+    "order_id": "170712192608695513299372", 
+    "order_desc": "10 Gold", 
+    "_token": "at0es7kpiwgsww044g84o0csc", 
+    "iap": false, 
+    "order_name": "10 Gold", 
+    "vip": 0, 
+    "pay_methods": [
+        {
+            "pay_type": 0, 
+            "api": "api/pay/wechat/request", 
+            "type": "wechat"
+        }, 
+        {
+            "pay_type": 0, 
+            "api": "api/pay/alipay/request", 
+            "type": "alipay"
+        }
+    ], 
+    "balance": "0.00", 
+    "id": 13562746, 
+    "coupons": []
+}
+2017-07-12 Wednesday 19:25:06  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/nowpay_wechat/request
+2017-07-12 Wednesday 19:25:06  Http.py : INFO  request: {
+    "_token": "at0es7kpiwgsww044g84o0csc", 
+    "order_id": "170712192608695513299372", 
+    "balance": 0
+}
+
+2017-07-12 Wednesday 19:25:09  Http.py : INFO  response: {
+    "pay_type": 0, 
+    "real_fee": 1000, 
+    "order_id": "170712192608695513299372", 
+    "data": "appId=1440581085864755&mhtCharset=UTF-8&mhtCurrencyType=156&mhtOrderAmt=1000&mhtOrderDetail=10+Gold&mhtOrderName=10+Gold&mhtOrderNo=170712192608695513299372&mhtOrderStartTime=20170712192611&mhtOrderType=01&notifyUrl=http%3A%2F%2Fsdkv4.qcwan.com%2Fpay_callback%2Fnowpay_wechat&payChannelType=13&mhtSignature=c57a68203c7e75aead74f74987e3f388&mhtSignType=MD5", 
+    "_token": "at0es7kpiwgsww044g84o0csc", 
+    "pay_method": "nowpay_wechat"
+}
+2017-07-12 Wednesday 19:25:09  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/user/info
+2017-07-12 Wednesday 19:25:09  Http.py : INFO  request: {
+    "_token": "at0es7kpiwgsww044g84o0csc"
+}
+
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  response: {
+    "province": "天津市", 
+    "uid": 11996370, 
+    "is_adult": true, 
+    "vip": 0, 
+    "rid": 1, 
+    "city": "天津市", 
+    "reg_time": 1494817811, 
+    "score": 0, 
+    "regtype": 6, 
+    "email": "lx123lx@anfan.com", 
+    "card_no": "431003197009247037", 
+    "username": "lx123lx", 
+    "_token": "at0es7kpiwgsww044g84o0csc", 
+    "birthday": "19700924", 
+    "address": "草泥马", 
+    "is_real": true, 
+    "nickname": "skyli", 
+    "bindlist": {
+        "qq": {
+            "is_bind": false
+        }, 
+        "baidu": {
+            "is_bind": false
+        }, 
+        "lenovo": {
+            "is_bind": false
+        }, 
+        "leshi": {
+            "is_bind": false
+        }, 
+        "weibo": {
+            "is_bind": false
+        }, 
+        "weixin": {
+            "is_bind": false
+        }, 
+        "hauwei": {
+            "is_bind": false
+        }, 
+        "yyb_weixin": {
+            "is_bind": false
+        }, 
+        "yyb_guest": {
+            "is_bind": false
+        }, 
+        "xiaomi": {
+            "is_bind": false
+        }, 
+        "vivo": {
+            "is_bind": false
+        }, 
+        "amigo": {
+            "is_bind": false
+        }, 
+        "mobile": {
+            "is_bind": false
+        }, 
+        "facebook": {
+            "is_bind": false
+        }, 
+        "oppo": {
+            "is_bind": false
+        }, 
+        "password": {
+            "is_bind": true
+        }, 
+        "uc": {
+            "is_bind": false
+        }, 
+        "yyb_qq": {
+            "is_bind": false
+        }
+    }, 
+    "rtype": 0, 
+    "mobile": "", 
+    "gender": 1, 
+    "real_name": "草泥马", 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "exp": 0, 
+    "balance": "0.00"
+}
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/account/login
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  request: {
+    "username": "lx123lx", 
+    "password": "lx123lx"
+}
+
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  response: {
+    "username": "lx123lx", 
+    "openid": "11996370", 
+    "uid": 11996370, 
+    "rtype": 0, 
+    "mobile": "", 
+    "is_adult": true, 
+    "real_name": "草泥马", 
+    "sub_nickname": "小号1", 
+    "vip": 0, 
+    "actiontype": 2, 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "is_real": true, 
+    "regtype": 6, 
+    "rid": 1, 
+    "balance": "0.00", 
+    "nickname": "skyli", 
+    "token": "ahc62g93my8swg0sk04s4oc0o", 
+    "card_no": "431003197009247037"
+}
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/order/new
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  request: {
+    "body": "10 Gold", 
+    "fee": 10, 
+    "vorderid": "307988998137", 
+    "_token": "ahc62g93my8swg0sk04s4oc0o", 
+    "role_id": 10001, 
+    "notify_url": "http://www.baidu.com/", 
+    "zone_id": 1, 
+    "zone_name": "龙争虎斗", 
+    "role_name": "疯狂科学家", 
+    "role_level": 1, 
+    "subject": "10 Gold"
+}
+
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  response: {
+    "fee": "10", 
+    "product_id": "", 
+    "package": "com.anfan.iapceshi", 
+    "order_id": "170712192611991704961041", 
+    "order_desc": "10 Gold", 
+    "_token": "ahc62g93my8swg0sk04s4oc0o", 
+    "iap": false, 
+    "order_name": "10 Gold", 
+    "vip": 0, 
+    "pay_methods": [
+        {
+            "pay_type": 0, 
+            "api": "api/pay/wechat/request", 
+            "type": "wechat"
+        }, 
+        {
+            "pay_type": 0, 
+            "api": "api/pay/alipay/request", 
+            "type": "alipay"
+        }
+    ], 
+    "balance": "0.00", 
+    "id": 13562749, 
+    "coupons": []
+}
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/nowpay_wechat/request
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  request: {
+    "_token": "ahc62g93my8swg0sk04s4oc0o", 
+    "order_id": "170712192611991704961041", 
+    "balance": 0
+}
+
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  response: {
+    "pay_type": 0, 
+    "real_fee": 1000, 
+    "order_id": "170712192611991704961041", 
+    "data": "appId=1440581085864755&mhtCharset=UTF-8&mhtCurrencyType=156&mhtOrderAmt=1000&mhtOrderDetail=10+Gold&mhtOrderName=10+Gold&mhtOrderNo=170712192611991704961041&mhtOrderStartTime=20170712192612&mhtOrderType=01&notifyUrl=http%3A%2F%2Fsdkv4.qcwan.com%2Fpay_callback%2Fnowpay_wechat&payChannelType=13&mhtSignature=04601fe325266e8dc02b8d5f52e2a413&mhtSignType=MD5", 
+    "_token": "ahc62g93my8swg0sk04s4oc0o", 
+    "pay_method": "nowpay_wechat"
+}
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/user/info
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  request: {
+    "_token": "ahc62g93my8swg0sk04s4oc0o"
+}
+
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  response: {
+    "province": "天津市", 
+    "uid": 11996370, 
+    "is_adult": true, 
+    "vip": 0, 
+    "rid": 1, 
+    "city": "天津市", 
+    "reg_time": 1494817811, 
+    "score": 0, 
+    "regtype": 6, 
+    "email": "lx123lx@anfan.com", 
+    "card_no": "431003197009247037", 
+    "username": "lx123lx", 
+    "_token": "ahc62g93my8swg0sk04s4oc0o", 
+    "birthday": "19700924", 
+    "address": "草泥马", 
+    "is_real": true, 
+    "nickname": "skyli", 
+    "bindlist": {
+        "qq": {
+            "is_bind": false
+        }, 
+        "baidu": {
+            "is_bind": false
+        }, 
+        "lenovo": {
+            "is_bind": false
+        }, 
+        "leshi": {
+            "is_bind": false
+        }, 
+        "weibo": {
+            "is_bind": false
+        }, 
+        "weixin": {
+            "is_bind": false
+        }, 
+        "hauwei": {
+            "is_bind": false
+        }, 
+        "yyb_weixin": {
+            "is_bind": false
+        }, 
+        "yyb_guest": {
+            "is_bind": false
+        }, 
+        "xiaomi": {
+            "is_bind": false
+        }, 
+        "vivo": {
+            "is_bind": false
+        }, 
+        "amigo": {
+            "is_bind": false
+        }, 
+        "mobile": {
+            "is_bind": false
+        }, 
+        "facebook": {
+            "is_bind": false
+        }, 
+        "oppo": {
+            "is_bind": false
+        }, 
+        "password": {
+            "is_bind": true
+        }, 
+        "uc": {
+            "is_bind": false
+        }, 
+        "yyb_qq": {
+            "is_bind": false
+        }
+    }, 
+    "rtype": 0, 
+    "mobile": "", 
+    "gender": 1, 
+    "real_name": "草泥马", 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "exp": 0, 
+    "balance": "0.00"
+}
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/account/login
+2017-07-12 Wednesday 19:25:10  Http.py : INFO  request: {
+    "username": "lx123lx", 
+    "password": "lx123lx"
+}
+
+2017-07-12 Wednesday 19:25:13  Http.py : INFO  response: {
+    "username": "lx123lx", 
+    "openid": "11996370", 
+    "uid": 11996370, 
+    "rtype": 0, 
+    "mobile": "", 
+    "is_adult": true, 
+    "real_name": "草泥马", 
+    "sub_nickname": "小号1", 
+    "vip": 0, 
+    "actiontype": 2, 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "is_real": true, 
+    "regtype": 6, 
+    "rid": 1, 
+    "balance": "0.00", 
+    "nickname": "skyli", 
+    "token": "7caz4eymj5s04goggkow0kwgs", 
+    "card_no": "431003197009247037"
+}
+2017-07-12 Wednesday 19:25:13  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/order/new
+2017-07-12 Wednesday 19:25:13  Http.py : INFO  request: {
+    "body": "10 Gold", 
+    "fee": 10, 
+    "vorderid": "341387353131", 
+    "_token": "7caz4eymj5s04goggkow0kwgs", 
+    "role_id": 10001, 
+    "notify_url": "http://www.baidu.com/", 
+    "zone_id": 1, 
+    "zone_name": "龙争虎斗", 
+    "role_name": "疯狂科学家", 
+    "role_level": 1, 
+    "subject": "10 Gold"
+}
+
+2017-07-12 Wednesday 19:25:16  Http.py : INFO  response: {
+    "fee": "10", 
+    "product_id": "", 
+    "package": "com.anfan.iapceshi", 
+    "order_id": "170712192618274406595446", 
+    "order_desc": "10 Gold", 
+    "_token": "7caz4eymj5s04goggkow0kwgs", 
+    "iap": false, 
+    "order_name": "10 Gold", 
+    "vip": 0, 
+    "pay_methods": [
+        {
+            "pay_type": 0, 
+            "api": "api/pay/wechat/request", 
+            "type": "wechat"
+        }, 
+        {
+            "pay_type": 0, 
+            "api": "api/pay/alipay/request", 
+            "type": "alipay"
+        }
+    ], 
+    "balance": "0.00", 
+    "id": 13562752, 
+    "coupons": []
+}
+2017-07-12 Wednesday 19:25:16  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/nowpay_wechat/request
+2017-07-12 Wednesday 19:25:16  Http.py : INFO  request: {
+    "_token": "7caz4eymj5s04goggkow0kwgs", 
+    "order_id": "170712192618274406595446", 
+    "balance": 0
+}
+
+2017-07-12 Wednesday 19:25:16  Http.py : INFO  response: {
+    "pay_type": 0, 
+    "real_fee": 1000, 
+    "order_id": "170712192618274406595446", 
+    "data": "appId=1440581085864755&mhtCharset=UTF-8&mhtCurrencyType=156&mhtOrderAmt=1000&mhtOrderDetail=10+Gold&mhtOrderName=10+Gold&mhtOrderNo=170712192618274406595446&mhtOrderStartTime=20170712192618&mhtOrderType=01&notifyUrl=http%3A%2F%2Fsdkv4.qcwan.com%2Fpay_callback%2Fnowpay_wechat&payChannelType=13&mhtSignature=fc5f0e2d171dc9745e563b2c1831908c&mhtSignType=MD5", 
+    "_token": "7caz4eymj5s04goggkow0kwgs", 
+    "pay_method": "nowpay_wechat"
+}
+2017-07-12 Wednesday 19:25:16  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/user/info
+2017-07-12 Wednesday 19:25:16  Http.py : INFO  request: {
+    "_token": "7caz4eymj5s04goggkow0kwgs"
+}
+
+2017-07-12 Wednesday 19:25:16  Http.py : INFO  response: {
+    "province": "天津市", 
+    "uid": 11996370, 
+    "is_adult": true, 
+    "vip": 0, 
+    "rid": 1, 
+    "city": "天津市", 
+    "reg_time": 1494817811, 
+    "score": 0, 
+    "regtype": 6, 
+    "email": "lx123lx@anfan.com", 
+    "card_no": "431003197009247037", 
+    "username": "lx123lx", 
+    "_token": "7caz4eymj5s04goggkow0kwgs", 
+    "birthday": "19700924", 
+    "address": "草泥马", 
+    "is_real": true, 
+    "nickname": "skyli", 
+    "bindlist": {
+        "qq": {
+            "is_bind": false
+        }, 
+        "baidu": {
+            "is_bind": false
+        }, 
+        "lenovo": {
+            "is_bind": false
+        }, 
+        "leshi": {
+            "is_bind": false
+        }, 
+        "weibo": {
+            "is_bind": false
+        }, 
+        "weixin": {
+            "is_bind": false
+        }, 
+        "hauwei": {
+            "is_bind": false
+        }, 
+        "yyb_weixin": {
+            "is_bind": false
+        }, 
+        "yyb_guest": {
+            "is_bind": false
+        }, 
+        "xiaomi": {
+            "is_bind": false
+        }, 
+        "vivo": {
+            "is_bind": false
+        }, 
+        "amigo": {
+            "is_bind": false
+        }, 
+        "mobile": {
+            "is_bind": false
+        }, 
+        "facebook": {
+            "is_bind": false
+        }, 
+        "oppo": {
+            "is_bind": false
+        }, 
+        "password": {
+            "is_bind": true
+        }, 
+        "uc": {
+            "is_bind": false
+        }, 
+        "yyb_qq": {
+            "is_bind": false
+        }
+    }, 
+    "rtype": 0, 
+    "mobile": "", 
+    "gender": 1, 
+    "real_name": "草泥马", 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "exp": 0, 
+    "balance": "0.00"
+}
+2017-07-12 Wednesday 19:25:16  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/account/login
+2017-07-12 Wednesday 19:25:16  Http.py : INFO  request: {
+    "username": "lx123lx", 
+    "password": "lx123lx"
+}
+
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  response: {
+    "username": "lx123lx", 
+    "openid": "11996370", 
+    "uid": 11996370, 
+    "rtype": 0, 
+    "mobile": "", 
+    "is_adult": true, 
+    "real_name": "草泥马", 
+    "sub_nickname": "小号1", 
+    "vip": 0, 
+    "actiontype": 2, 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "is_real": true, 
+    "regtype": 6, 
+    "rid": 1, 
+    "balance": "0.00", 
+    "nickname": "skyli", 
+    "token": "3w738p07n3eo0skcoog4ssgcc", 
+    "card_no": "431003197009247037"
+}
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/order/new
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  request: {
+    "body": "10 Gold", 
+    "fee": 10, 
+    "vorderid": "340737615444", 
+    "_token": "3w738p07n3eo0skcoog4ssgcc", 
+    "role_id": 10001, 
+    "notify_url": "http://www.baidu.com/", 
+    "zone_id": 1, 
+    "zone_name": "龙争虎斗", 
+    "role_name": "疯狂科学家", 
+    "role_level": 1, 
+    "subject": "10 Gold"
+}
+
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  response: {
+    "fee": "10", 
+    "product_id": "", 
+    "package": "com.anfan.iapceshi", 
+    "order_id": "170712192621552260187773", 
+    "order_desc": "10 Gold", 
+    "_token": "3w738p07n3eo0skcoog4ssgcc", 
+    "iap": false, 
+    "order_name": "10 Gold", 
+    "vip": 0, 
+    "pay_methods": [
+        {
+            "pay_type": 0, 
+            "api": "api/pay/wechat/request", 
+            "type": "wechat"
+        }, 
+        {
+            "pay_type": 0, 
+            "api": "api/pay/alipay/request", 
+            "type": "alipay"
+        }
+    ], 
+    "balance": "0.00", 
+    "id": 13562754, 
+    "coupons": []
+}
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/nowpay_wechat/request
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  request: {
+    "_token": "3w738p07n3eo0skcoog4ssgcc", 
+    "order_id": "170712192621552260187773", 
+    "balance": 0
+}
+
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  response: {
+    "pay_type": 0, 
+    "real_fee": 1000, 
+    "order_id": "170712192621552260187773", 
+    "data": "appId=1440581085864755&mhtCharset=UTF-8&mhtCurrencyType=156&mhtOrderAmt=1000&mhtOrderDetail=10+Gold&mhtOrderName=10+Gold&mhtOrderNo=170712192621552260187773&mhtOrderStartTime=20170712192621&mhtOrderType=01&notifyUrl=http%3A%2F%2Fsdkv4.qcwan.com%2Fpay_callback%2Fnowpay_wechat&payChannelType=13&mhtSignature=548534627aa87806da5adc65218123ec&mhtSignType=MD5", 
+    "_token": "3w738p07n3eo0skcoog4ssgcc", 
+    "pay_method": "nowpay_wechat"
+}
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/user/info
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  request: {
+    "_token": "3w738p07n3eo0skcoog4ssgcc"
+}
+
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  response: {
+    "province": "天津市", 
+    "uid": 11996370, 
+    "is_adult": true, 
+    "vip": 0, 
+    "rid": 1, 
+    "city": "天津市", 
+    "reg_time": 1494817811, 
+    "score": 0, 
+    "regtype": 6, 
+    "email": "lx123lx@anfan.com", 
+    "card_no": "431003197009247037", 
+    "username": "lx123lx", 
+    "_token": "3w738p07n3eo0skcoog4ssgcc", 
+    "birthday": "19700924", 
+    "address": "草泥马", 
+    "is_real": true, 
+    "nickname": "skyli", 
+    "bindlist": {
+        "qq": {
+            "is_bind": false
+        }, 
+        "baidu": {
+            "is_bind": false
+        }, 
+        "lenovo": {
+            "is_bind": false
+        }, 
+        "leshi": {
+            "is_bind": false
+        }, 
+        "weibo": {
+            "is_bind": false
+        }, 
+        "weixin": {
+            "is_bind": false
+        }, 
+        "hauwei": {
+            "is_bind": false
+        }, 
+        "yyb_weixin": {
+            "is_bind": false
+        }, 
+        "yyb_guest": {
+            "is_bind": false
+        }, 
+        "xiaomi": {
+            "is_bind": false
+        }, 
+        "vivo": {
+            "is_bind": false
+        }, 
+        "amigo": {
+            "is_bind": false
+        }, 
+        "mobile": {
+            "is_bind": false
+        }, 
+        "facebook": {
+            "is_bind": false
+        }, 
+        "oppo": {
+            "is_bind": false
+        }, 
+        "password": {
+            "is_bind": true
+        }, 
+        "uc": {
+            "is_bind": false
+        }, 
+        "yyb_qq": {
+            "is_bind": false
+        }
+    }, 
+    "rtype": 0, 
+    "mobile": "", 
+    "gender": 1, 
+    "real_name": "草泥马", 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "exp": 0, 
+    "balance": "0.00"
+}
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/account/login
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  request: {
+    "username": "lx123lx", 
+    "password": "lx123lx"
+}
+
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  response: {
+    "username": "lx123lx", 
+    "openid": "11996370", 
+    "uid": 11996370, 
+    "rtype": 0, 
+    "mobile": "", 
+    "is_adult": true, 
+    "real_name": "草泥马", 
+    "sub_nickname": "小号1", 
+    "vip": 0, 
+    "actiontype": 2, 
+    "avatar": "http://avatar.anfeng.com/avatar/11996370.png", 
+    "is_real": true, 
+    "regtype": 6, 
+    "rid": 1, 
+    "balance": "0.00", 
+    "nickname": "skyli", 
+    "token": "8dz15haywaw4kwgk44wo8ss0o", 
+    "card_no": "431003197009247037"
+}
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/order/new
+2017-07-12 Wednesday 19:25:19  Http.py : INFO  request: {
+    "body": "10 Gold", 
+    "fee": 10, 
+    "vorderid": "689051901939", 
+    "_token": "8dz15haywaw4kwgk44wo8ss0o", 
+    "role_id": 10001, 
+    "notify_url": "http://www.baidu.com/", 
+    "zone_id": 1, 
+    "zone_name": "龙争虎斗", 
+    "role_name": "疯狂科学家", 
+    "role_level": 1, 
+    "subject": "10 Gold"
+}
+
+2017-07-12 Wednesday 19:25:20  Http.py : INFO  response: {
+    "fee": "10", 
+    "product_id": "", 
+    "package": "com.anfan.iapceshi", 
+    "order_id": "170712192621849587957434", 
+    "order_desc": "10 Gold", 
+    "_token": "8dz15haywaw4kwgk44wo8ss0o", 
+    "iap": false, 
+    "order_name": "10 Gold", 
+    "vip": 0, 
+    "pay_methods": [
+        {
+            "pay_type": 0, 
+            "api": "api/pay/wechat/request", 
+            "type": "wechat"
+        }, 
+        {
+            "pay_type": 0, 
+            "api": "api/pay/alipay/request", 
+            "type": "alipay"
+        }
+    ], 
+    "balance": "0.00", 
+    "id": 13562755, 
+    "coupons": []
+}
+2017-07-12 Wednesday 19:25:20  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/pay/nowpay_wechat/request
+2017-07-12 Wednesday 19:25:20  Http.py : INFO  request: {
+    "_token": "8dz15haywaw4kwgk44wo8ss0o", 
+    "order_id": "170712192621849587957434", 
+    "balance": 0
+}
+
+2017-07-12 Wednesday 19:25:32  Http.py : INFO  response: {
+    "pay_type": 0, 
+    "real_fee": 1000, 
+    "order_id": "170712192621849587957434", 
+    "data": "appId=1440581085864755&mhtCharset=UTF-8&mhtCurrencyType=156&mhtOrderAmt=1000&mhtOrderDetail=10+Gold&mhtOrderName=10+Gold&mhtOrderNo=170712192621849587957434&mhtOrderStartTime=20170712192633&mhtOrderType=01&notifyUrl=http%3A%2F%2Fsdkv4.qcwan.com%2Fpay_callback%2Fnowpay_wechat&payChannelType=13&mhtSignature=779aa7e6231dfbddd662cb02ef27d1a0&mhtSignType=MD5", 
+    "_token": "8dz15haywaw4kwgk44wo8ss0o", 
+    "pay_method": "nowpay_wechat"
+}
+2017-07-12 Wednesday 19:25:32  Http.py : INFO  
+============================================== http://sdkv4.qcwan.com/api/user/info
+2017-07-12 Wednesday 19:25:32  Http.py : INFO  request: {
+    "_token": "8dz15haywaw4kwgk44wo8ss0o"
+}
+
